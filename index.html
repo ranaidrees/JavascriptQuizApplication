@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" src="questionList.json"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <title>Javascript Quiz</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="grid">
+    <div id="quiz">
+        <h1>Quiz</h1>
+        <hr>
+        <p id="question"></p>
+        <div class="buttons">
+            <button id="btn0"><span id="choice0"></span></button>
+            <button id="btn1"><span id="choice1"></span></button>
+            <button id="btn2"><span id="choice2"></span></button>
+            <button id="btn3"><span id="choice3"></span></button>
+        </div>
+        <hr>
+    </div>
+    <footer id="progress">x of y questions</footer>
+</div>
+
+
+<script src="question.js"></script>
+<script src="quizController.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
