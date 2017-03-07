@@ -1,5 +1,9 @@
-﻿var questions = [new Question("first", [1, 2, 3, 4], 4), new Question("second", [5, 6, 7, 8], 6), new Question("third", [2, 3, 4, 5], 4)];
-
+﻿var questions = [
+    new Question("Which of the following function of String object extracts a section of a string and returns a new string?", ['slice()', 'split()', 'replace()', 'search()'], 'slice()'),
+    new Question("Which of the following is a valid type of function javascript supports?", ['named function', 'anonymous function', 'Both of the above', 'None of the above'], 'Both of the above'),
+    new Question("Which of the following function of String object creates an HTML anchor that is used as a hypertext target?", ['anchor()', 'link()', 'blink()', 'big()'], 'anchor()'),
+];
+// courtesy of logicguns.   
 var quiz = new Quiz(questions);
 
 function populate() {
@@ -11,7 +15,7 @@ function populate() {
         element.innerHTML = quiz.getQuestionindex().text;
         var choices = quiz.getQuestionindex().choices;
         for (var i = 0; i < choices.length; i++) {
-            var element = document.getElementById("choice" + i);
+            element = document.getElementById("choice" + i);
             element.innerHTML = choices[i];
             guess("btn" + i, choices[i]);
         }
