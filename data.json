@@ -1,0 +1,17 @@
+﻿{
+  "items":[
+    {
+      "title": "Which of the following statements are false for Java script",
+      "choices": [ "js", "javascript","script","scripting" ],
+      "correctAnswer": "script"
+    },
+    {
+      "title": "second",
+      "choices": [ "object", "array","arguments","undefined" ],
+      "correctAnswer": "object"
+    }
+    
+  ]
+
+}
+//careerride

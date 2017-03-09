@@ -4,3 +4,9 @@ C:\Naveed\JavascriptLearning\Github\JavaScriptApplication\JavaScriptApplication\
 C:\Naveed\JavascriptLearning\Github\JavaScriptApplication\JavaScriptApplication\obj\Debug\JavaScriptApplication.csprojResolveAssemblyReference.cache
 C:\Naveed\JavascriptLearning\Github\JavaScriptApplication\JavaScriptApplication\obj\Debug\JavaScriptApplication.dll
 C:\Naveed\JavascriptLearning\Github\JavaScriptApplication\JavaScriptApplication\obj\Debug\JavaScriptApplication.pdb
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\bin\JavaScriptApplication.dll.config
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\bin\JavaScriptApplication.dll
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\bin\JavaScriptApplication.pdb
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\obj\Debug\JavaScriptApplication.dll
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\obj\Debug\JavaScriptApplication.pdb
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\obj\Debug\JavaScriptApplication.csprojResolveAssemblyReference.cache
