@@ -1,17 +1,169 @@
 ﻿{
-  "items":[
-    {
-      "title": "Which of the following statements are false for Java script",
-      "choices": [ "js", "javascript","script","scripting" ],
-      "correctAnswer": "script"
-    },
-    {
-      "title": "second",
-      "choices": [ "object", "array","arguments","undefined" ],
-      "correctAnswer": "object"
-    }
-    
-  ]
+    "items": [
+        {
+            "title": "What does the following expression return? 1 + 5 + ” bottles”;",
+            "choices": [ "15 bottles", "6 bottles", "undefined", "5 bottles" ],
+            "correctAnswer": "6 bottles"
+        },
+        {
+            "title": "How do you create an object in JavaScript?",
+            "choices": [ " var obj = {}", "function Foo() {} var obj = new Foo();", "var obj = new Object();", "All of these" ],
+            "correctAnswer": "All of these"
+        },
+
+        {
+            "title": "What is the result of the following statement: typeof “x”;",
+            "choices": [ "character", "[object String]", "x is not defined", "undefined" ],
+            "correctAnswer": "undefined"
+        },
+        {
+            "title": "Which is not a primitive data type in JavaScript?",
+            "choices": [ "boolean", "char", "number", "string" ],
+            "correctAnswer": "All of these"
+        },
+        {
+            "title": "Which of these is a correct method to create a new array?",
+            "choices": [ "var myArray = ();", " var myArray = [];", " var myArray = new Array[];", "var myArray = {};" ],
+            "correctAnswer": " var myArray = [];"
+        },
+        {
+            "title": "How do you create an object in JavaScript?",
+            "choices": [ " var obj = {}", "function Foo() {} var obj = new Foo();", "var obj = new Object();", "All of these" ],
+            "correctAnswer": "All of these"
+        },
+        {
+            "title": "Which of these is not a logical operator?",
+            "choices": [ "!", "&", "&&", "||" ],
+            "correctAnswer": "&"
+        },
+        {
+            "title": "What is the value of x? var a = false; var x = a ? “A” : “B”;",
+            "choices": [ "undefined", "true", "A", "B" ],
+            "correctAnswer": "B"
+        },
+        {
+            "title": "How is an object property referenced?",
+            "choices": [ "myObj(foo)", "myObj->foo", "myObj.foo", "myObj<foo>" ],
+            "correctAnswer": "myObj.foo"
+        },
+        {
+            "title": "How to return the first value of this array? var myArr = [1, 2, 3, 4, 5]; var myVal = …",
+            "choices": [ "myArr[0];", "myArr.pop();", "myArr[1];", "myArr.shift();" ],
+            "correctAnswer": "myArr[0];"
+        },
+
+        /////
+        {
+            "title": "Given the following code, what does myFunc() return? var foo = ‘foo’; var bar = ‘bar’; function myFunc() { return foo + bar; }",
+            "choices": [ "foobar", "NaN", "undefined", "foo+bar" ],
+            "correctAnswer": "foobar"
+        },
+        {
+            "title": "How do you round the number 7.25, to the nearest whole number?",
+            "choices": [ "Math.round(7.25)", " rnd(7.25)", "round(7.25)", "Math.rnd(7.25)" ],
+            "correctAnswer": "Math.round(7.25)"
+        },
+
+        {
+            "title": "How do you define a function called “fName”?",
+            "choices": [ " function fName: { }", "func fName = function () {}", "function fName() { }", "None of these" ],
+            "correctAnswer": "function fName() { }"
+        },
+        {
+            "title": "How do you check what the type of a value in variable x is?",
+            "choices": [ "gettype(x);", " x.__type;", "Object.type(x);", "typeof(x);" ],
+            "correctAnswer": "typeof(x);"
+        },
+        {
+            "title": "Which of these is a correct method to create a new array?",
+            "choices": [ "var myArray = ();", " var myArray = [];", " var myArray = new Array[];", "var myArray = {};" ],
+            "correctAnswer": " var myArray = [];"
+        },
+        {
+            "title": "Which is NOT a way to create a loop in javascript?",
+            "choices": [ "for (…) { }", "do { } while(…)", " while (…) { }", "repeat (…) { }" ],
+            "correctAnswer": "repeat (…) { }"
+        },
+        {
+            "title": "What is the value of the array myArr after execution of the following code: var myArr = [1,2,3,4,5]; myArr.shift();",
+            "choices": [ "[1,2,3,4,5]", "[]", "[2,3,4,5]", "[1,2,3,4,5]" ],
+            "correctAnswer": "[2,3,4,5]"
+        },
+        {
+            "title": "What is the value of a : var a = 3; var b = 2; var c = a; var a=b=c=1;",
+            "choices": [ "3", "true", "1", "false" ],
+            "correctAnswer": "1"
+        },
+        {
+            "title": "When an array index goes out of bounds, what is returned?",
+            "choices": [ "undefined", "exception", "last value of array", "null" ],
+            "correctAnswer": "undefined"
+        },
+        {
+            "title": "Which of the following is an Error object constructor?",
+            "choices": [ "EvalError", "Error", "RangeError", "All of these" ],
+            "correctAnswer": "All of these;"
+        },
+
+
+        ////
+
+        {
+            "title": "How do you assign an anonymous function to a variable?",
+            "choices": [ "var anon = new Function () { };", "var anon = function() { };", "var anon = func() { };", "var anon = func({});" ],
+            "correctAnswer": "var anon = function() { };"
+        },
+        {
+            "title": "How do you find the number with the highest value of x and y?",
+            "choices": [ "Math.max(x, y)", "ceil(x, y)", "Math.top(x, y)", "Math.ceil(x, y)" ],
+            "correctAnswer": "Math.max(x, y)"
+        },
+
+        {
+            "title": "If a function doesn’t explicitly use the “return” operator, what will the return value be when the function is invoked?",
+            "choices": [ "null", "undefined", "false", "closure" ],
+            "correctAnswer": "undefined"
+        },
+        {
+            "title": "Which of the following have special meanings within the language syntax?",
+            "choices": [ "Variables", "Literals", "Reserved words", "identifiers" ],
+            "correctAnswer": "Reserved words"
+        },
+        {
+            "title": "What is result of the following expression: var a = “test”; console.log(!!a);",
+            "choices": [ "SyntaxError", "false", "true", "undefinedd" ],
+            "correctAnswer": "true"
+        },
+        {
+            "title": "Every object is linked to a _________ object from which it can inherit properties.",
+            "choices": [ "argument", "sibling", "Object", "prototype" ],
+            "correctAnswer": "prototype"
+        },
+        {
+            "title": "Consider this code: var x = [‘Hello’]; What value will ‘x[1]’ return?",
+            "choices": [ "Hello", "null", "undefined", "['Hello']" ],
+            "correctAnswer": "[2,3,4,5]"
+        },
+        {
+            "title": "split() is a method of which constructors’ prototype?",
+            "choices": [ "String.prototype", "Number.prototype", "Array.prototype","None of these" ],
+            "correctAnswer": "String.prototype"
+        },
+        {
+            "title": "What is the result of the following expression? ({“foo”: true}).foo;",
+            "choices": [ "undefined", "4", "false", "true" ],
+            "correctAnswer": "true"
+        },
+        {
+            "title": "What does null, undefined, “string”, 20, true and false have in common?",
+            "choices": [ "They are primtive values", "They are functionsr", "They are objects", "None of these" ],
+            "correctAnswer": "They are primtive values;"
+        }
+
+
+
+    ]
 
 }
 //careerride
+//http://www.naukrieducation.com/100-top-javascript-multiple-choice-questions-and-answers-for-freshers-and-experienced-pdf/
