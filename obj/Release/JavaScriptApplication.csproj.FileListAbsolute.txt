@@ -1,0 +1,5 @@
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\bin\JavaScriptApplication.dll.config
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\bin\JavaScriptApplication.dll
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\bin\JavaScriptApplication.pdb
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\obj\Release\JavaScriptApplication.dll
+C:\WorkSpace\GitHub\JavaScriptQuizApplication\obj\Release\JavaScriptApplication.pdb

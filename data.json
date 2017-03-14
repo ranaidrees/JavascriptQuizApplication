@@ -1,5 +1,4 @@
-﻿{
-    "items": [
+﻿[
         {
             "title": "What does the following expression return? 1 + 5 + ” bottles”;",
             "choices": [ "15 bottles", "6 bottles", "undefined", "5 bottles" ],
@@ -52,7 +51,6 @@
             "correctAnswer": "myArr[0];"
         },
 
-        /////
         {
             "title": "Given the following code, what does myFunc() return? var foo = ‘foo’; var bar = ‘bar’; function myFunc() { return foo + bar; }",
             "choices": [ "foobar", "NaN", "undefined", "foo+bar" ],
@@ -104,10 +102,6 @@
             "choices": [ "EvalError", "Error", "RangeError", "All of these" ],
             "correctAnswer": "All of these;"
         },
-
-
-        ////
-
         {
             "title": "How do you assign an anonymous function to a variable?",
             "choices": [ "var anon = new Function () { };", "var anon = function() { };", "var anon = func() { };", "var anon = func({});" ],
@@ -159,11 +153,5 @@
             "choices": [ "They are primtive values", "They are functionsr", "They are objects", "None of these" ],
             "correctAnswer": "They are primtive values;"
         }
-
-
-
     ]
 
-}
-//careerride
-//http://www.naukrieducation.com/100-top-javascript-multiple-choice-questions-and-answers-for-freshers-and-experienced-pdf/

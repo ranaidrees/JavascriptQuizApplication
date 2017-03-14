@@ -2,7 +2,7 @@
 function init() {
     $.getJSON("data.json",
        function (data) {
-           var questionList = data.items;
+           var questionList = data;
            var questions=[];
            for (var i = 0; i <questionList.length; i++) {
                questions.push(new Question(questionList[i].title,
@@ -43,8 +43,6 @@ function showScores(quiz) {
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 }
-//populate();
-
 function showProgress(quiz) {
     var currentQuestionNumber = quiz.questionIndex + 1;
     var element = document.getElementById("progress");

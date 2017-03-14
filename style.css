@@ -1,11 +1,11 @@
 ﻿body {
-    background-color: #eeeeee;
+    background-color: antiquewhite;
 }
 .grid {
     width: 600px;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
-    background-color: #fff0f5;
+    background-color: lightgray;
     padding: 10px 50px 50px 50px;
     border-radius: 50px;
     border: 2px solid black;
@@ -30,17 +30,17 @@
 }
 #btn0, #btn1, #btn2, #btn3 {
     background-color: #778899;
-    width: 250px;
-    font-size: 20px;
+    width: 300px;
+    font-size: 15px;
     color: #fff0f5;
     border-radius: 50px;
     margin: 10px 40px 10px 0px;
     border: 1px solid black;
     padding: 10px 10px;
 }
-#progress {
+#progress
+{
     color:#778899
-
 }
  
 
